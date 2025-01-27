@@ -1,0 +1,25 @@
+<div class="container">
+<div class="reservation">
+  <h1>Meet you here, pretty lady ❤️</h1>
+
+  <!-- Reservation Card 1 -->
+  <div class="reservation-card" (click)="openModal('assets/dinner.jpg')">
+    <img src="assets/dinner.jpg" alt="Dinner Reservation" class="reservation-photo">
+    <p>Dinner Reservation</p>
+  </div>
+
+  <!-- Reservation Card 2 -->
+  <div class="reservation-card" (click)="openModal('assets/airbnb.jpg')">
+    <img src="assets/airbnb.jpg" alt="Airbnb Reservation" class="reservation-photo">
+    <p>Airbnb Reservation</p>
+  </div>
+
+  <button class="back-button" (click)="goBack()">Back to Main Page</button>
+</div>
+
+<!-- Modal for Full-Screen Image -->
+<div class="modal" [class.active]="isModalOpen">
+  <img [src]="currentImage" alt="Full-View Image">
+  <button class="close-button" (click)="closeModal()">X</button>
+</div>
+</div>
