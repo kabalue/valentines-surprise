@@ -1,0 +1,2 @@
+export default `@keyframes fall{0%{transform:translateY(-100vh) rotate(0)}to{transform:translateY(100vh) rotate(720deg)}}.heart{position:absolute;top:0;background:pink;width:20px;height:20px;clip-path:polygon(50% 0%,100% 40%,80% 100%,50% 75%,20% 100%,0% 40%);animation:fall 5s infinite linear}
+`;

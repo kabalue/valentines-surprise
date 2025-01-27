@@ -1,0 +1,1 @@
+function createHearts(){const a=document.body;for(let e=0;e<50;e++){const t=document.createElement("div");t.className="heart",t.style.left=`${Math.random()*100}%`,t.style.animationDuration=`${Math.random()*3+2}s`,a.appendChild(t)}}window.onload=createHearts();
