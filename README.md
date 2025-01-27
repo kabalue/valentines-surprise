@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ValentinesApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# valentines-surprise
+A Valentine's Day surprise website built with Angular.
+>>>>>>> 400d5e9aa94404c2a7310b0de8bbc2b2b634a993
